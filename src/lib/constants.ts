@@ -10,7 +10,7 @@ export const BRAND = {
   tagline: "Structured onchain intelligence for the Solana ecosystem.",
   mission:
     "Organize onchain activity into structured research, so that wallet behavior, deployer history, and liquidity conditions can be understood and evaluated before decisions are made.",
-  logo: "/owlscope.jpg",
+logo: "/logo/owlscopes.jpg",
   banner: "/owlscope-banner.png",
 };
 
