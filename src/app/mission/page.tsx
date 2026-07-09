@@ -25,20 +25,21 @@ export default function MissionPage() {
               The Problem
             </p>
             <h2 className="mt-4 text-2xl font-semibold text-black md:text-3xl">
-              Why meme coin investors lose money
+              Why meme coin losses are difficult to evaluate
             </h2>
           </div>
           <div className="space-y-4 text-[15px] leading-relaxed text-black/60">
             <p>
               Most meme coin losses don&apos;t come from bad luck. They come from
-              missing information — hidden wallet clusters, developer history,
+              missing information; hidden wallet clusters, developer history,
               and liquidity structures that aren&apos;t visible before a trade
               is made.
             </p>
             <p>
-              Investors are forced to make fast decisions with incomplete
-              data, often relying on social sentiment instead of on-chain
-              behavior.
+              Participants often make fast decisions with incomplete
+              data, relying on social sentiment when wallet behavior,
+              deployer history, and liquidity conditions have not yet been
+              reviewed.
             </p>
           </div>
         </Container>
@@ -52,18 +53,19 @@ export default function MissionPage() {
               Our Approach
             </p>
             <h2 className="mt-4 text-2xl font-semibold text-black md:text-3xl">
-              Intelligence before the trade
+              Research before capital is committed
             </h2>
           </div>
           <div className="space-y-4 text-[15px] leading-relaxed text-black/60">
             <p>
-              OwlScope applies AI-driven analysis to wallet behavior,
-              developer reputation, and market structure — surfacing the
-              signals that matter before capital is committed.
+              OwlScope is being built to organize wallet behavior,
+              deployer history, and market structure into evidence based
+              research that can be reviewed before capital is committed.
             </p>
             <p>
-              We believe every investor deserves the same visibility that
-              sophisticated funds already have.
+              The objective is to make relevant onchain evidence easier to
+              inspect, compare, and explain without presenting the output as
+              financial advice or a deterministic risk label.
             </p>
           </div>
         </Container>
@@ -76,8 +78,8 @@ export default function MissionPage() {
             Long-Term Vision
           </p>
           <h2 className="text-2xl font-semibold leading-snug tracking-tight md:text-3xl">
-            A future where every on-chain decision is made with full clarity —
-            not guesswork.
+            A future where onchain decisions can be reviewed with better
+            context, not guesswork.
           </h2>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Button href="/mission/vision" variant="secondary" className="border-white text-white hover:bg-white hover:text-black">

@@ -13,7 +13,7 @@ export default function RoadmapPage() {
         />
 
         <div className="mt-16 space-y-0">
-          {ROADMAP.map((phase, index) => (
+          {ROADMAP.map((phase) => (
             <div
               key={phase.phase}
               className="grid gap-6 border-t border-black/10 py-10 md:grid-cols-[160px_1fr]"

@@ -10,9 +10,10 @@ export default function PlatformPreview() {
           The OwlScope Intelligence Platform
         </h2>
         <p className="mt-4 text-[15px] leading-relaxed text-black/60">
-          Currently under development. AI Risk Engine, Wallet Intelligence,
-          Developer Reputation, Threat Detection, Smart Alerts, and Auto Exit
-          Protection are all on the way.
+          Currently under development. The planned platform focuses on wallet
+          intelligence, deployer history, liquidity conditions, research
+          alerts, and model assisted risk classification. Features remain in
+          design and are subject to change before release.
         </p>
         <div className="mt-8">
           <Button href="/platform" variant="primary">

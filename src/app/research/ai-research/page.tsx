@@ -108,8 +108,8 @@ export default function AiResearchPage() {
         The objective of this research is to determine which onchain
         classification tasks are well suited to model based approaches,
         and to establish a methodology for evaluating classification
-        confidence, as foundational work for the AI Risk Engine and
-        Wallet Intelligence modules planned for the OwlScope Intelligence
+        confidence, as foundational work for the Risk Classification Research
+        and Wallet Intelligence modules planned for the OwlScope Intelligence
         Platform. These modules are not yet available and remain under
         active development.
       </p>

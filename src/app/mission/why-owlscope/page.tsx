@@ -10,7 +10,7 @@ const REASONS = [
   {
     title: "Existing tools solve only part of the problem",
     description:
-      "Today's ecosystem is fragmented across explorers, token trackers, charting platforms, and analytics dashboards. Users must combine information from multiple sources before they can evaluate a wallet, token, or onchain entity with confidence.",
+      "Today's ecosystem is fragmented across explorers, token trackers, charting platforms, and market data interfaces. Users must combine information from multiple sources before they can evaluate a wallet, token, or onchain entity with confidence.",
   },
   {
     title: "Intelligence should be accessible",

@@ -93,7 +93,7 @@ export default function MarketStructurePage() {
       <p>
         Market structure indicators describe present liquidity and trading
         conditions. They do not predict future price movement or
-        guarantee that a structurally fragile token will experience a
+        prove that a structurally fragile token will experience a
         specific outcome. External factors, including shifts in demand or
         broader market conditions, can affect price independently of the
         structural conditions described in this research.

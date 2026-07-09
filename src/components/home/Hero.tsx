@@ -24,8 +24,8 @@ export default function Hero() {
             {BRAND.tagline}
           </h1>
           <p className="mt-6 text-[15px] leading-relaxed text-black/60 md:text-base">
-            Helping investors understand wallets, developer behavior, and meme
-            coin risk before entering a trade.
+            Helping researchers examine wallets, deployer behavior, liquidity
+            conditions, and meme coin risk with structured onchain evidence.
           </p>
 
           {/* Buttons */}

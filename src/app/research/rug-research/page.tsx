@@ -98,7 +98,7 @@ export default function RugResearchPage() {
       <p>
         The structural indicators identified in this research describe
         conditions correlated with historical rug pulls. They do not
-        constitute a predictive guarantee that a token exhibiting these
+        constitute a deterministic conclusion that a token exhibiting these
         conditions will fail in the same manner. Legitimate projects may
         exhibit individual characteristics found in this research, such as
         concentrated early supply during a fair launch phase or a delayed

@@ -14,12 +14,12 @@ export default function OpenSourcePage() {
         />
         <div className="mt-10 space-y-5 text-[15px] leading-relaxed text-black/60">
           <p>
-            Select components of the OwlScope Intelligence Platform —
-            including research tooling and non-sensitive infrastructure — are
-            planned for open-source release as the platform matures.
+            Select components of the OwlScope Intelligence Platform, including
+            research tooling and non-sensitive infrastructure, are planned for
+            open-source release as the platform matures.
           </p>
           <p>
-            Our GitHub will be the source of truth for any open-source
+            Our GitHub will be the reference point for any open-source
             repositories. Follow along for updates as modules are published.
           </p>
         </div>

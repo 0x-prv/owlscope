@@ -10,7 +10,7 @@ export default function ArticleLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-white py-24">
+    <div className="bg-white py-20 sm:py-24">
       <Container className="max-w-3xl">
         <p className="text-[13px] uppercase tracking-[0.2em] text-red-600">
           {category}
@@ -18,7 +18,7 @@ export default function ArticleLayout({
         <h1 className="mt-4 text-3xl font-semibold tracking-tight text-black md:text-4xl">
           {title}
         </h1>
-        <div className="mt-10 space-y-5 text-[15px] leading-relaxed text-black/60">
+        <div className="mt-10 space-y-5 text-[15px] leading-relaxed text-black/60 [&_h2]:pt-5 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h2]:text-black [&_strong]:font-semibold [&_strong]:text-black">
           {children}
         </div>
       </Container>
