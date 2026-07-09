@@ -14,9 +14,10 @@ export default function PlatformPage() {
         </h1>
         <p className="mt-6 text-[15px] leading-relaxed text-black/60">
           The OwlScope Intelligence Platform is currently under development.
-          Every module below is being built to bring AI-powered wallet
-          intelligence, risk analysis, and real-time market research directly
-          to Solana meme coin investors.
+          The modules below describe the intended research direction, not
+          currently available product claims. OwlScope is being designed to
+          organize wallet history, deployer records, liquidity conditions, and
+          model assisted classification into a subscription research workflow.
         </p>
         <div className="mt-8">
           <Button href="/foundation/contact" variant="primary">

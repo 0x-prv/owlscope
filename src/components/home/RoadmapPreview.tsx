@@ -14,7 +14,7 @@ export default function RoadmapPreview() {
             href="/roadmap"
             className="text-[13px] uppercase tracking-[0.18em] text-black/60 hover:text-black"
           >
-            Full Roadmap →
+            Full Roadmap
           </Link>
         </div>
 

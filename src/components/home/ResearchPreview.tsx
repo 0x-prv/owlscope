@@ -15,7 +15,7 @@ export default function ResearchPreview() {
             href="/research"
             className="text-[13px] uppercase tracking-[0.18em] text-black/60 hover:text-black"
           >
-            View All →
+            View All
           </Link>
         </div>
 

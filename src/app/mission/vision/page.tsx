@@ -41,7 +41,7 @@ export default function VisionPage() {
           </p>
 
           <p>
-            OwlScope is building the intelligence layer for Solana. The
+            OwlScope is building the research layer for Solana. The
             platform organizes raw onchain data into structured research
             objects by analyzing wallets, deployers, token distribution,
             liquidity behavior, and the relationships between them. Rather

@@ -1,4 +1,9 @@
-import { NavDropdownConfig, RoadmapPhase, ResearchArticle, PlatformModule } from "./types";
+import {
+  NavDropdownConfig,
+  RoadmapPhase,
+  ResearchArticle,
+  PlatformModule,
+} from "./types";
 
 export const BRAND = {
   name: "OwlScope",
@@ -59,9 +64,9 @@ export const SOCIAL_LINKS = {
   github: "https://github.com/owlscope",
 };
 
-// Brand language map — used for reference across copy
+// Brand language map; used for reference across copy
 export const BRAND_LANGUAGE = {
-  dashboard: "Research Workspace",
+  workspace: "Research Workspace",
   search: "Search",
   analysis: "Research Report",
   watchlist: "Watchlist",
@@ -85,22 +90,81 @@ export const FEATURE_CARDS = [
 ];
 
 export const PLATFORM_MODULES: PlatformModule[] = [
-  { name: "AI Risk Engine", description: "Model based risk classification for meme coin contracts, evaluated against historical outcomes." },
-  { name: "Wallet Intelligence", description: "Structured analysis of wallet behavior, funding sources, and transaction history." },
-  { name: "Deployer Intelligence", description: "Historical analysis of deployer track record across prior launches." },
-  { name: "Early Signals", description: "Observation of measurable behavioral changes, such as liquidity events and abnormal wallet activity." },
-  { name: "Research Alerts", description: "Notifications when tracked wallets or tokens meet defined research criteria." },
-  { name: "Liquidity Intelligence", description: "Analysis of liquidity provider behavior, lock status, and concentration." },
+  {
+    name: "Risk Classification Research",
+    description:
+      "Model based risk classification for meme coin contracts, evaluated against historical outcomes.",
+  },
+  {
+    name: "Wallet Intelligence",
+    description:
+      "Structured analysis of wallet behavior, funding sources, and transaction history.",
+  },
+  {
+    name: "Deployer Intelligence",
+    description:
+      "Historical analysis of deployer track record across prior launches.",
+  },
+  {
+    name: "Early Signals",
+    description:
+      "Observation of measurable behavioral changes, such as liquidity events and abnormal wallet activity.",
+  },
+  {
+    name: "Research Alerts",
+    description:
+      "Notifications when tracked wallets or tokens meet defined research criteria.",
+  },
+  {
+    name: "Liquidity Intelligence",
+    description:
+      "Analysis of liquidity provider behavior, lock status, and concentration.",
+  },
 ];
 
 export const ROADMAP: RoadmapPhase[] = [
-  { phase: "Phase 1", title: "Foundation", items: ["Brand", "Website", "Mission", "Research"], status: "done" },
-  { phase: "Phase 2", title: "Community", items: ["Documentation", "Community", "Waitlist"], status: "in-progress" },
-  { phase: "Phase 3", title: "Private Alpha", items: ["Private Platform Alpha", "Wallet Intelligence"], status: "upcoming" },
-  { phase: "Phase 4", title: "AI Systems", items: ["AI Risk Engine", "Deployer Intelligence"], status: "upcoming" },
-  { phase: "Phase 5", title: "Public Beta", items: ["Public Beta"], status: "upcoming" },
-  { phase: "Phase 6", title: "Monetization", items: ["Subscription"], status: "upcoming" },
-  { phase: "Phase 7", title: "Token Utility", items: ["Token Utility"], status: "upcoming" },
+  {
+    phase: "Phase 1",
+    title: "Foundation",
+    items: ["Brand", "Website", "Mission", "Research"],
+    status: "done",
+  },
+  {
+    phase: "Phase 2",
+    title: "Community",
+    items: ["Documentation", "Community", "Waitlist"],
+    status: "in-progress",
+  },
+  {
+    phase: "Phase 3",
+    title: "Private Alpha",
+    items: ["Private Platform Alpha", "Wallet Intelligence"],
+    status: "upcoming",
+  },
+  {
+    phase: "Phase 4",
+    title: "AI Systems",
+    items: ["Risk Classification Research", "Deployer Intelligence"],
+    status: "upcoming",
+  },
+  {
+    phase: "Phase 5",
+    title: "Public Beta",
+    items: ["Public Beta"],
+    status: "upcoming",
+  },
+  {
+    phase: "Phase 6",
+    title: "Monetization",
+    items: ["Subscription"],
+    status: "upcoming",
+  },
+  {
+    phase: "Phase 7",
+    title: "Token Utility",
+    items: ["Token Utility"],
+    status: "upcoming",
+  },
 ];
 
 export const RESEARCH_ARTICLES: ResearchArticle[] = [
